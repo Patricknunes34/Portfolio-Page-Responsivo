@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // CÁLCULO E ATUALIZAÇÃO DA IDADE AUTOMÁTICA
-    const dataNascimento = new Date('2009-05-16'); // SUA DATA DE NASCIMENTO AQUI!
+    const dataNascimento = new Date('2004-05-16');
     const hoje = new Date();
 
     let idade = hoje.getFullYear() - dataNascimento.getFullYear();
