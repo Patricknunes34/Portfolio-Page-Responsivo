@@ -79,6 +79,45 @@ header::before {
     font-size: clamp(1rem, 3vw, 1.5rem);
 }
 
+
+h3 {
+    font-size: clamp(0,99rem, 5vw, 7.5rem);
+}
+
+
+h3 > span {
+    position: relative;
+    display: inline-block;
+    color: var(--color-gold-light);
+    height: 1.25em;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+
+h3 > span > span {
+    display: block;
+    animation: animatewords 10s infinite ease;
+}
+
+@keyframes animatewords {
+    0% { transform: translateY(0%); }
+    20% { transform: translateY(0%); }
+
+    25% { transform: translateY(-100%); }
+
+    45% { transform: translateY(-100%); }
+
+    50% { transform: translateY(-200%); }
+
+    70% { transform: translateY(-200%); }
+
+    75% { transform: translateY(-300%); }
+
+    95% { transform: translateY(-300%); }
+    100% { transform: translateY(-300%); }
+}
+
+
 .header-text p {
     font-size: clamp(1rem, 2.5vw, 1.5rem);
     color: var(--color-gold-light);
