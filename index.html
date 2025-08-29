@@ -11,6 +11,7 @@
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
+    
     <header>
         <div class="container">
             <div class="header-content">
@@ -28,7 +29,7 @@
                         </span>
                     </h3>
                     <div class="header-buttons">
-                        <button class="btn-primary"  id="verProjetosBtn">
+                        <button class="btn-primary" id="verProjetosBtn">
                             Ver Projetos <i data-lucide="chevron-right"></i>
                         </button>
                         <button class="btn-outline" onclick="window.location.href='mailto:nunespatrick42@gmail.com'">
@@ -54,50 +55,50 @@
     <section class="stats">
         <div class="container">
             <div class="stats-grid">
-
                 <div class="stat-card">
                     <i data-lucide="chevron-down" class="interativo-icone"></i>
                     <i data-lucide="award"></i>
                     <h3>FORMAÇÃO ACADÊMICA</h3>
                     <p>Interativo</p>
                     <div class="hidden-content">
-                        <p>+ Curso de ingles (Wise Up online)</p>
-                        <p>+ Cientista da computação (UNIP Marquês)</p>
-                        <p>+ Ensino medio(completo)</p>
+                        <p>+Curso de ingles (Wise Up online)</p>
+                        <p>+Universidade Paulista – Matutino<br> Previsão de conclusão: Dez/2026</p>
+                        <p>+E.E. Professora Zuleika de Barros Martins Ferreira<br> Conclusão: Dez/2022</p>
+                        <p>+Udemy<br> SQL para Análise de Dados – avançado<br> Concluido: Mai/2025</p>
+                        <p>+DIO – Digital Innovation One<br> Bootcamp Santander 2024 – Backend<br> Conclusão: Jul/2024</p>
                     </div>
                 </div>
+
                 <div class="stat-card">
                     <i data-lucide="chevron-down" class="interativo-icone"></i>
                     <i data-lucide="briefcase"></i>
                     <h3>Experiência</h3>
                     <p>Interativo</p>
                     <div class="hidden-content">
-                        <p><u>PERRI ENGENHARIA E CONSTRUÇÃO:</u><br>
-                            Elaboração e acompanhamento de campanhas de promoção e merchandising na empresa, para divulgação e maior visibilidade dos serviços.
-                        </p>
-                        <p><u>DJ REFRIGERAÇÃO:</u><br>
-                            Atividades de cópia e digitalização de documentos; classificação, avaliação, transferência de arquivos; análise e envio de produtos com problemas referentes à assistência técnica.
-                        </p>
-                        <p>+ Criação de sistema Java (projeto facultativo)</p>
-                        <p>+ Criação de sistema Python (projeto facultativo)</p>
-                        <p>+ Criação de banco de dados básico (projeto facultativo)</p>
-                        <p>+ Básico de back-end e front-end</p>
-                        <p>+ Pacote Office - Intermediario</p>
-                        <p>+ Criptografia Básica</p>
-                        <p>+ Power BI Básico</p>
+                        <p><u>PERRI ENGENHARIA E CONSTRUÇÃO:</u><br> Elaboração e acompanhamento de campanhas de promoção e merchandising na empresa, para divulgação e maior visibilidade dos serviços.</p>
+                        <p><u>DJ REFRIGERAÇÃO:</u><br> Atividades de cópia e digitalização de documentos; classificação, avaliação, transferência de arquivos; análise e envio de produtos com problemas referentes à assistência técnica.</p>
+                        <p>Familiaridade com ambientes de desenvolvimento integrado (IDEs) como Visual Studio Code, PyCharm, IntelliJ IDEA</p>
+                        <p>Capacidade de converter dados em insights estratégicos para identificar tendências e criar ferramentas de análise</p>
+                        <p>Fortes habilidades de resolução de problemas, correção de erros e soluções criativas</p>
+                        <p>Atitude pró-ativa, vontade de aprender e aprimorar constantemente as habilidades técnicas.</p>
                     </div>
                 </div>
+
                 <div class="stat-card">
                     <i data-lucide="chevron-down" class="interativo-icone"></i>
                     <i data-lucide="book-open"></i>
-                    <h3>5 Linguagens</h3>
+                    <h3>Conhecimento</h3>
                     <p>Interativo</p>
                     <div class="hidden-content">
-                        <p>+Linguagem web (Basico) </p>
+                        <p>+Linguagem web (Basico)</p>
                         <p>+SQL (Intermediario)</p>
                         <p>+Python (Basico)</p>
                         <p>+Java (Intermediario)</p>
                         <p>+C# (Basico)</p>
+                        <p>+SQL (Intermediario)</p>
+                        <p>+Modelagem de Dados</p>
+                        <p>+Power BI</p>
+                        <p>+Pacote Office</p>
                     </div>
                 </div>
             </div>
@@ -105,225 +106,242 @@
     </section>
 
     <section class="projects">
-        <div class="container">
-            <h2>Meus Projetos</h2>
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="todos">Todos</button>
-                <button class="filter-btn" data-filter="Java">Java</button>
-                <button class="filter-btn" data-filter="C#">C#</button>
+    <div class="container">
+        <h2>Meus Projetos</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="todos">Todos</button>
+            <button class="filter-btn" data-filter="Java">Java</button>
+            <button class="filter-btn" data-filter="C#">C#</button>
+        </div>
+        <div class="projects-grid">
+
+            <!-- Controle de Estoque -->
+            <div class="project-card" data-category="Java">
+                <div class="project-content">
+                    <div class="project-left">
+                        <div class="project-image">
+                            <img src="https://econsult.org.br/wp-content/uploads/2020/10/controle-de-estoque.png" alt="Sistema de Controle de Estoque">
+                        </div>
+                        <div class="code-section">
+                            <div class="code-header">
+                                <i data-lucide="code-2"></i>
+                                <h3>Código</h3>
+                                <div class="container">
+                                    <div class="center">
+                                        <button class="btn" data-link="https://github.com/Patricknunes34/controle_estoque">
+                                            <span>Link do Codigo</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <pre id="Sistema_de_controle_de_Estoque"><code></code></pre>
+                        </div>
+                    </div>
+                    <div class="project-right">
+                        <div class="video-section">
+                            <iframe src="videos/Sistema_de_controle_de_Estoque.mp4" title="Sistema de Gestão Empresarial" allowfullscreen></iframe>
+                        </div>
+                        <div class="project-info">
+                            <h2>Controle de Estoque</h2>
+                            <p>Sistema de Cadastro de Estoque Básico para Pequenas Empresas que Necessitam de uma Administração Prática e Rápida para uma Visualização em tempo reaal dos dados salvos no BD.</p>
+                            <div class="tech-tags">
+                                <span>Java</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            <div class="projects-grid">
-                <div class="project-card" data-category="Java">
-                    <div class="project-content">
-                        <div class="project-left">
-                            <div class="project-image">
-                                <img src="https://econsult.org.br/wp-content/uploads/2020/10/controle-de-estoque.png" 
-                                     alt="Sistema de Controle de Estoque">
-                            </div>
-                            <div class="code-section">
-                                <div class="code-header">
-                                    <i data-lucide="code-2"></i>
-                                    <h3>Código</h3>
-                                    <div class="container">
-                                        <div class="center">
-                                            <button class="btn" data-link="https://github.com/Patricknunes34/controle_estoque">
-                                                <span>Link do Codigo</span>
-                                            </button>
-                                        </div>
+
+            <!-- Simulador de ChatBox -->
+            <div class="project-card" data-category="Java">
+                <div class="project-content">
+                    <div class="project-left">
+                        <div class="project-image">
+                            <img src="https://inbot.com.br/wp-content/uploads/2023/04/Chat-bot-pana-1024x1024.png" alt="Simulador de ChatBox">
+                        </div>
+                        <div class="code-section">
+                            <div class="code-header">
+                                <i data-lucide="code-2"></i>
+                                <h3>Código</h3>
+                                <div class="container">
+                                    <div class="center">
+                                        <button class="btn" data-link="https://github.com/Patricknunes34/ChatBox-Basico">
+                                            <span>Link do Codigo</span>
+                                        </button>
                                     </div>
                                 </div>
-                                <pre id="Sistema_de_controle_de_Estoque"><code></code></pre>
                             </div>
+                            <pre id="Simulador_de_ChatBox"><code></code></pre>
                         </div>
-                        <div class="project-right">
-                            <div class="video-section">
-                                <iframe src="Sistema_de_controle_de_Estoque.mp4"
-                                        title="Sistema de Gestão Empresarial" 
-                                        allowfullscreen></iframe>
-                            </div>
-                            <div class="project-info">
-                                <h2>Controle de Estoque</h2>
-                                <p>Sistema de Cadastro de Estoque Básico para Pequenas Empresas que Necessitam de uma Administração Prática e Rápida para uma Visualização em tempo reaal dos dados salvos no BD.</p>
-                                <div class="tech-tags">
-                                    <span>Java</span>
-                                    <span>PostgreSQL</span>
-                                </div>
+                    </div>
+                    <div class="project-right">
+                        <div class="video-section">
+                            
+                            <iframe src="videos/Simulador de ChatBox.mp4" title="Aplicativo de Análise Financeira" allowfullscreen></iframe>
+                        </div>
+                        <div class="project-info">
+                            <h2>Simulador de ChatBox</h2>
+                            <p>Sistema de ajuda para dúvidas de site ou sistema.</p>
+                            <div class="tech-tags">
+                                <span>Java</span>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="project-card" data-category="Java">
-                    <div class="project-content">
-                        <div class="project-left">
-                            <div class="project-image">
-                                <img src="https://inbot.com.br/wp-content/uploads/2023/04/Chat-bot-pana-1024x1024.png"
-                                     alt="Simulador de ChatBox">
-                            </div>
-                            <div class="code-section">
-                                <div class="code-header">
-                                    <i data-lucide="code-2"></i>
-                                    <h3>Código</h3>
-                                    <div class="container">
-                                        <div class="center">
-                                            <button class="btn"  data-link="https://github.com/Patricknunes34/ChatBox-Basico">
-                                                <span>Link do Codigo</span>
-                                            </button>
-                                        </div>
+            </div>
+            <!-- Sistema de Gerenciamento de Alunos -->
+            <div class="project-card" data-category="Java">
+                <div class="project-content">
+                    <div class="project-left">
+                        <div class="project-image">
+                            <img src="https://escolaweb.com.br/wp-content/uploads/2024/03/topo-blogo_Prancheta-1.png" alt="Sistema de gerenciamento dAlunos">
+                        </div>
+                        <div class="code-section">
+                            <div class="code-header">
+                                <i data-lucide="code-2"></i>
+                                <h3>Código</h3>
+                                <div class="container">
+                                    <div class="center">
+                                        <button class="btn" data-link="https://github.com/Patricknunes34/Sistema-de-gerenciamento-dAlunos">
+                                            <span>Link do Codigo</span>
+                                        </button>
                                     </div>
                                 </div>
-                                <pre id="Simulador_de_ChatBox"><code></code></pre>
                             </div>
+                            <pre id="Sistema_de_gerenciamento_aluno"><code></code></pre>
                         </div>
-                        <div class="project-right">
-                            <div class="video-section">
-                                <iframe src="Simulador de ChatBox.mp4"
-                                        title="Aplicativo de Análise Financeira"
-                                        allowfullscreen></iframe>
-                            </div>
-                            <div class="project-info">
-                                <h2>Simulador de ChatBox</h2>
-                                <p>Sistema de ajuda para dúvidas de site ou sistema.</p>
-                                <div class="tech-tags">
-                                    <span>Java</span>
-                                </div>
+                    </div>
+                    <div class="project-right">
+                        <div class="video-section">
+                            <iframe src="videos/Sistema de gerenciamento dAlunos.mp4" title="Sistema de gerenciamento dAlunos" allowfullscreen></iframe>
+                        </div>
+                        <div class="project-info">
+                            <h2>Sistema de gerenciamento dAlunos</h2>
+                            <p>Sobre<br> O Sistema de Gerenciamento de Alunos é uma ferramenta que simplifica o controle de informações e notas acadêmicas. Com uma interface intuitiva, organiza dados em tabelas por sala, atendendo às necessidades de professores e administradores.</p>
+                            <div class="tech-tags">
+                                <span>Java</span>
+                                <span>PostgreSQL</span>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="projects-grid">
-                    <div class="project-card" data-category="Java">
-                        <div class="project-content">
-                            <div class="project-left">
-                                <div class="project-image">
-                                    <img src="https://escolaweb.com.br/wp-content/uploads/2024/03/topo-blogo_Prancheta-1.png" 
-                                         alt="Sistema de gerenciamento dAlunos">
-                                </div>
-                                <div class="code-section">
-                                    <div class="code-header">
-                                        <i data-lucide="code-2"></i>
-                                        <h3>Código</h3>
-                                        <div class="container">
-                                            <div class="center">
-                                                <button class="btn" data-link="https://github.com/Patricknunes34/Sistema-de-gerenciamento-dAlunos">
-                                                    <span>Link do Codigo</span>
-                                                </button>
-                                            </div>
-                                        </div>
+            </div>
+            <!-- Agenda de Contato -->
+            <div class="project-card" data-category="C#">
+                <div class="project-content">
+                    <div class="project-left">
+                        <div class="project-image">
+                            <img src="https://www.1tool.com/wp-content/uploads/2022/03/Kontaktverwaltung.png" alt="Agenda de Contato">
+                        </div>
+                        <div class="code-section">
+                            <div class="code-header">
+                                <i data-lucide="code-2"></i>
+                                <h3>Código</h3>
+                                <div class="container">
+                                    <div class="center">
+                                        <button class="btn" data-link="https://github.com/Patricknunes34/Agenda-de-Contato">
+                                            <span>Link do Codigo</span>
+                                        </button>
                                     </div>
-                                    <pre id="Sistema_de_gerenciamento_aluno"><code></code></pre>
                                 </div>
                             </div>
-                            <div class="project-right">
-                                <div class="video-section">
-                                    <iframe src="Sistema de gerenciamento dAlunos.mp4" 
-                                            title="Sistema de gerenciamento dAlunos" 
-                                            allowfullscreen></iframe>
-                                </div>
-                                <div class="project-info">
-                                    <h2>Sistema de gerenciamento dAlunos</h2>
-                                    <p>Sobre
-                                        O Sistema de Gerenciamento de Alunos é uma ferramenta que simplifica o controle de informações e notas acadêmicas. Com uma interface intuitiva, organiza dados em tabelas por sala, atendendo às necessidades de professores e administradores.</p>
-                                    <div class="tech-tags">
-                                        <span>Java</span>
-                                        <span>PostgreSQL</span>
-                                    </div>
-                                </div>
+                            <pre id="Sistema_de_Agenda_de_Contato"><code></code></pre>
+                        </div>
+                    </div>
+                    <div class="project-right">
+                        <div class="video-section">
+                            <iframe src="videos/Agenda Contato.mp4" title="Agenda de Contato" allowfullscreen></iframe>
+                        </div>
+                        <div class="project-info">
+                            <h2>Agenda de Contato</h2>
+                            <p>Este código em linguagem C# implementa um Sistema de Cadastro de Contatos para pequenas empresas, permitindo adicionar, procurar, editar, mostrar e excluir contatos de forma eficiente. Utiliza um arquivo de texto como banco de dados e possui alertas e verificações para evitar duplicidades, facilitando o gerenciamento.</p>
+                            <div class="tech-tags">
+                                <span>C#</span>
                             </div>
                         </div>
                     </div>
-
-                    <div class="projects-grid">
-                        <div class="project-card" data-category="C#">
-                            <div class="project-content">
-                                <div class="project-left">
-                                    <div class="project-image">
-                                        <img src="https://www.1tool.com/wp-content/uploads/2022/03/Kontaktverwaltung.png" 
-                                             alt="Agenda de Contato">
-                                    </div>
-                                    <div class="code-section">
-                                        <div class="code-header">
-                                            <i data-lucide="code-2"></i>
-                                            <h3>Código</h3>
-                                            <div class="container">
-                                                <div class="center">
-                                                    <button class="btn" data-link="https://github.com/Patricknunes34/Agenda-de-Contato">
-                                                        <span>Link do Codigo</span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                         <pre id="Sistema_de_Agenda_de_Contato"><code></code></pre>
-                                    </div>
-                                </div>
-                                <div class="project-right">
-                                    <div class="video-section">
-                                        <iframe src="Agenda Contato.mp4"
-                                                title="Agenda de Contato" 
-                                                allowfullscreen></iframe>
-                                    </div>
-                                    <div class="project-info">
-                                        <h2>Agenda de Contato</h2>
-                                        <p>Este código em linguagem C# implementa um Sistema de Cadastro de Contatos para pequenas empresas, permitindo adicionar, procurar, editar, mostrar e excluir contatos de forma eficiente. Utiliza um arquivo de texto como banco de dados e possui alertas e verificações para evitar duplicidades, facilitando o gerenciamento.</p>
-                                        <div class="tech-tags">
-                                            <span>C#</span>
-                                        </div>
+                </div>
+            </div>
+            <!-- Criptografia Ordenada -->
+            <div class="project-card" data-category="Java">
+                <div class="project-content">
+                    <div class="project-left">
+                        <div class="project-image">
+                            <img src="https://i.pinimg.com/736x/19/9e/34/199e34245edfa86c92a194a68d6701a6.jpg" alt="Criptografia Ordenada">
+                        </div>
+                        <div class="code-section">
+                            <div class="code-header">
+                                <i data-lucide="code-2"></i>
+                                <h3>Código</h3>
+                                <div class="container">
+                                    <div class="center">
+                                        <button class="btn" data-link="https://github.com/Patricknunes34/Encrypted-Guardian">
+                                            <span>Link do Codigo</span>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                            <pre id="Criptografia Ordenada"><code></code></pre>
                         </div>
                     </div>
-
-
-                    
-                    <div class="projects-grid">
-                        <div class="project-card" data-category="Java">
-                            <div class="project-content">
-                                <div class="project-left">
-                                    <div class="project-image">
-                                        <img src="https://i.pinimg.com/736x/19/9e/34/199e34245edfa86c92a194a68d6701a6.jpg" 
-                                             alt="Criptografia Ordenada">
-                                    </div>
-                                    <div class="code-section">
-                                        <div class="code-header">
-                                            <i data-lucide="code-2"></i>
-                                            <h3>Código</h3>
-                                            <div class="container">
-                                                <div class="center">
-                                                    <button class="btn" data-link="https://github.com/Patricknunes34/Encrypted-Guardian">
-                                                        <span>Link do Codigo</span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                         <pre id="Criptografia Ordenada"><code></code></pre>
-                                    </div>
-                                </div>
-                                <div class="project-right">
-                                    <div class="video-section">
-                                        <iframe src="Sistema de criptografia ordenada.mp4"
-                                                title="Criptografia Ordenada" 
-                                                allowfullscreen></iframe>
-                                    </div>
-                                    <div class="project-info">
-                                        <h2>Encrypted Guardian</h2>
-                                        <p>Uma ferramenta CLI que criptografa e descriptografa arquivos de texto (.txt), utilizando algoritmos como AES, César e Transposição. Além disso, ele mede o desempenho de cada método. Fundamentalmente, o sistema demonstra a implementação da criptografia para proteger dados em sistemas, assegurando a confidencialidade e integridade de informações sensíveis que transitam por esses arquivos.</p>
-                                        <div class="tech-tags">
-                                            <span>Java</span>
-                                        </div>
+                    <div class="project-right">
+                        <div class="video-section">
+                            <iframe src="videos/Sistema de criptografia ordenada.mp4" title="Criptografia Ordenada" allowfullscreen></iframe>
+                        </div>
+                        <div class="project-info">
+                            <h2>Encrypted Guardian</h2>
+                            <p>Uma ferramenta CLI que criptografa e descriptografa arquivos de texto (.txt), utilizando algoritmos como AES, César e Transposição. Além disso, ele mede o desempenho de cada método. Fundamentalmente, o sistema demonstra a implementação da criptografia para proteger dados em sistemas, assegurando a confidencialidade e integridade de informações sensíveis que transitam por esses arquivos.</p>
+                            <div class="tech-tags">
+                                <span>Java</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mercado Digital -->
+            <div class="project-card" data-category="Java">
+                <div class="project-content">
+                    <div class="project-left">
+                        <div class="project-image">
+                            <img src="https://www.comecomm.com.br/wp-content/uploads/2020/11/supermercado-online-cresce-2020-e-tendencias.jpg" alt="mercado_digital">
+                        </div>
+                        <div class="code-section">
+                            <div class="code-header">
+                                <i data-lucide="code-2"></i>
+                                <h3>Código</h3>
+                                <div class="container">
+                                    <div class="center">
+                                        <button class="btn" data-link="https://github.com/Patricknunes34/mercado_digital">
+                                            <span>Link do Codigo</span>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                            <pre id="Mercado_Digital"><code></code></pre>
                         </div>
                     </div>
-
-
-
-                </section>
+                    <div class="project-right">
+                        <div class="video-section">
+                            <iframe src="videos/e_comerce_site.mp4" title="Mercado Digital" allowfullscreen></iframe>
+                        </div>
+                        <div class="project-info">
+                            <h2>Mercado Digital</h2>
+                            <p>Sistema completo de e-commerce com integração de HTML, CSS, JavaScript e MySQL para funcionalidade operacional com conexão direta ao banco de dados para gerenciamento de informações e utilização de node_modules para dependências externas.</p>
+                            <div class="tech-tags">
+                                <span>Java</span>
+                                <span>MySQL</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <footer>
         <div class="container">
